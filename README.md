@@ -40,7 +40,8 @@ Want to contribute?  Up-to-date pointers should be at:
 ## use replication
 
 ```sh
-patch -p1 -i repcached-2.3-1.4.5.patch"
+#at memcached git root
+patch -p1 -i repcached-2.3-1.4.5.patch
 ./configure --enable-replication
 make
 make install
