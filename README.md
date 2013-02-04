@@ -36,3 +36,12 @@ should never go to disk, or you've lost the whole point of it)
 Want to contribute?  Up-to-date pointers should be at:
 
 * http://contributing.appspot.com/memcached
+
+## use replication
+
+```sh
+patch -p1 -i repcached-2.3-1.4.5.patch"
+./configure --enable-replication
+make
+make install
+```
